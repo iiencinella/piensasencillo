@@ -4,7 +4,7 @@ import Link from '../components/Link'
 import SectionContainer from '../components/SectionContainer'
 import Footer from '../components/Footer'
 import MobileNav from '../components/MobileNav'
-import Logo from '../components/logotipe'
+import Logo from '../components/Image/logo'
 
 const LayoutWrapper = ({ children }) => {
   return (
@@ -14,7 +14,7 @@ const LayoutWrapper = ({ children }) => {
           <div>
             <div className="flex items-center justify-between">
               <div className="mr-3 h-16 w-16">
-                <Logo />
+                <Logo widthImg={64} heightImg={64} />
               </div>
               <Link href="/" aria-label={siteMetadata.headerTitle}>
                 <div className="h-6 text-center text-3xl font-semibold sm:block">

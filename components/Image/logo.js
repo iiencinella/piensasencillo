@@ -2,15 +2,15 @@ import siteMetadata from '@/data/siteMetadata'
 import Image from 'next/image'
 import { useTheme } from 'next-themes'
 
-export default function Logo() {
+export default function Logo({ widthImg, heightImg }) {
   const { theme, setTheme, resolvedTheme } = useTheme()
   return (
     <Image
       src={siteMetadata.imageHome}
       alt="logo"
       className="absolute mt-2"
-      width={500}
-      height={500}
+      width={widthImg}
+      height={heightImg}
       onClick={() => setTheme(theme === 'dark' || resolvedTheme === 'dark' ? 'light' : 'dark')}
     ></Image>
   )

@@ -1,5 +1,5 @@
 import { PageSEO } from '@/components/SEO'
-import Logo from '@/components/logotipe'
+import Logo from '@/components/Image/logo'
 import siteMetadata from '@/data/siteMetadata'
 import Link from 'next/link'
 
@@ -12,7 +12,7 @@ export default function Home() {
           <div className="absolute pt-1/10 lg:pt-16">
             <div className="h-52 w-52 animate-ping rounded-full bg-yellow-200 opacity-75"></div>
           </div>
-          <Logo />
+          <Logo widthImg={500} heightImg={500} />
         </div>
         <div className="mt-4 flex flex-col text-center">
           <p>
