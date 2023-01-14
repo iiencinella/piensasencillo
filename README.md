@@ -64,16 +64,16 @@ Además de las features originales, le agregué lo siguiente:
 
 .components
 ╠═ Card
-║  ╠═ Block
-║  ╚═ Inline
+║ ╠═ Block
+║ ╚═ Inline
 ╠═ Image
-║  ╚═ Logo
+║ ╚═ Logo
 ╠═ Footer
-║  ╚═ Legal Info
+║ ╚═ Legal Info
 ╠═ Header
-║  ╚═ Mobile Nav
+║ ╚═ Mobile Nav
 ╠═ Section
-║  ╚═ [...]
+║ ╚═ [...]
 ╠═ Client Reload
 ╠═ Theme Switch
 ╠═ SEO
@@ -93,13 +93,13 @@ Además de las features originales, le agregué lo siguiente:
 
 .data
 ╠═ author
-║  ╚═ [...].md
+║ ╚═ [...].md
 ╠═ blog
-║  ╚═ [...].md
+║ ╚═ [...].md
 ╠═ services
-║  ╚═ [...].md
+║ ╚═ [...].md
 ╠═ projects
-║  ╚═ [...].md
+║ ╚═ [...].md
 ╠═ HeaderNav.link.js
 ╠═ Project.data.js
 ╠═ Service.data.js
@@ -114,56 +114,56 @@ Además de las features originales, le agregué lo siguiente:
 
 .lib
 ╠═ utils
-║  ╠═ file.utils.js
-║  ╠═ date.utils.js [formatter and comparative]
-║  ╠═ htmlEscaper.utils.js
-║  ╠═ kebabCase.utils.js
-║  ╚═ [...].lib.js
+║ ╠═ file.utils.js
+║ ╠═ date.utils.js [formatter and comparative]
+║ ╠═ htmlEscaper.utils.js
+║ ╠═ kebabCase.utils.js
+║ ╚═ [...].lib.js
 ╠═ mdx.lib.js
 ╠═ remark
-║  ╠═ codeTitle.utils.js
-║  ╠═ extractFrontMatter.utils.js
-║  ╠═ imgToJSX.utils.js
-║  ╠═ tocHeading.utils.js
-║  ╠═ tags.utils.js
-║  ╚═ [...].lib.js
+║ ╠═ codeTitle.utils.js
+║ ╠═ extractFrontMatter.utils.js
+║ ╠═ imgToJSX.utils.js
+║ ╠═ tocHeading.utils.js
+║ ╠═ tags.utils.js
+║ ╚═ [...].lib.js
 ╚═ [...].lib.js
 
 .pages
 ╠═ api
-║  ╚═ [...].js
+║ ╚═ [...].js
 ╠═ blog
-║  ╠═ page
-║  ║  ╚═ [page].js
-║  ╚═ [...slug].js
+║ ╠═ page
+║ ║ ╚═ [page].js
+║ ╚═ [...slug].js
 ╠═ service
-║  ╠═ page
-║  ║  ╚═ [page].js
-║  ╚═ [...slug].js
+║ ╠═ page
+║ ║ ╚═ [page].js
+║ ╚═ [...slug].js
 ╠═ tag
-║  ╠═ page
-║  ║  ╚═ [page].js
-║  ╚═ [tag].js
-╠═ _app.js
-╠═ _document.js
+║ ╠═ page
+║ ║ ╚═ [page].js
+║ ╚═ [tag].js
+╠═ \_app.js
+╠═ \_document.js
 ╠═ 404
-║  ╚═ page
-║     ╚═ [page].js
+║ ╚═ page
+║ ╚═ [page].js
 ╠═ about
-║  ╚═ page
-║     ╚═ [page].js
+║ ╚═ page
+║ ╚═ [page].js
 ╠═ project
-║  ╚═ page
-║     ╚═ [page].js
+║ ╚═ page
+║ ╚═ [page].js
 ╠═ index.js
 ╚═ [...].js
 
 .public
 ╠═ static
-║  ╠═ favicon
-║  ╠═ gallery
-║  ╠═ icon
-║  ╚═ [...]
+║ ╠═ favicon
+║ ╠═ gallery
+║ ╠═ icon
+║ ╚═ [...]
 ╚═ [...]
 
 .scripts
