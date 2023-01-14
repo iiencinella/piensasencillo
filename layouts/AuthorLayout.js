@@ -1,4 +1,4 @@
-import SocialIcon from '@/components/social-icons'
+import SocialIcon from '@/components/Image/social-icons'
 import Image from '@/components/Image'
 import { PageSEO } from '@/components/SEO'
 import { facebook } from '@/data/siteMetadata'
