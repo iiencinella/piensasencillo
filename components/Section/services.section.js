@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function SectionServices() {
   return (
     <>
-      <div className="flex h-full w-full flex-col justify-center">
+      <div id="services" className="flex h-full w-full flex-col justify-center">
         <div className="relative grid justify-items-center">
           <div className="absolute pt-1/10 lg:pt-16">
             <div className="h-52 w-52 animate-ping rounded-full bg-yellow-200 opacity-75"></div>

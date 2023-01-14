@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <div className="w-full">
+      <div>
         <div>
           <SectionServices />
         </div>

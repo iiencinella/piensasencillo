@@ -1,4 +1,4 @@
-import Link from '@/components/Link/idnex'
+import Link from '@/components/Link'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { useState } from 'react'
