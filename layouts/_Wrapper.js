@@ -1,10 +1,10 @@
 import siteMetadata from '@/data/siteMetadata'
 import headerNavLinks from '@/data/headerNavLinks'
 import Link from '../components/Link'
-import SectionContainer from '../components/SectionContainer'
 import Footer from '../components/Footer'
-import MobileNav from '../components/MobileNav'
+import MobileNav from '../components/Header/MobileNav'
 import Logo from '../components/Image/logo'
+import { SectionContainer } from '@/components/Section'
 
 const LayoutWrapper = ({ children }) => {
   return (

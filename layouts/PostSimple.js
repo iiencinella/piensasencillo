@@ -1,6 +1,6 @@
-import Link from '@/components/Link'
+import Link from '@/components/Link/idnex'
 import PageTitle from '@/components/PageTitle'
-import SectionContainer from '@/components/SectionContainer'
+import SectionContainer from '@/components/Section/_container.section'
 import { BlogSEO } from '@/components/SEO'
 import siteMetadata from '@/data/siteMetadata'
 import formatDate from '@/lib/utils/formatDate'
