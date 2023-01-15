@@ -1,6 +1,6 @@
 import serviceData from '@/data/serviceData'
 import Link from 'next/link'
-import Card from '../Card/Card'
+import Card from '../Card'
 
 export default function SectionServices() {
   return (

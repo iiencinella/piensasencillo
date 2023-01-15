@@ -1,4 +1,4 @@
-import Card from '@/components/Card/Card'
+import Card from '@/components/Card'
 import blogData from '@/data/blogData'
 import projectsData from '@/data/projectsData'
 import serviceData from '@/data/serviceData'

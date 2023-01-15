@@ -1,6 +1,6 @@
 import siteMetadata from '@/data/siteMetadata'
 import serviceData from '@/data/serviceData'
-import Card from '@/components/Card/Card'
+import Card from '@/components/Card'
 import { PageSEO } from '@/components/SEO'
 
 export default function Projects() {
