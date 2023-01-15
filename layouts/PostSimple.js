@@ -1,10 +1,10 @@
 import Link from '@/components/Link'
-import PageTitle from '@/components/PageTitle'
+import PageTitle from '@/components/Post/PageTitle'
 import SectionContainer from '@/components/Section/_container.section'
 import { BlogSEO } from '@/components/SEO'
 import siteMetadata from '@/data/siteMetadata'
 import formatDate from '@/lib/utils/formatDate'
-import ScrollTopAndComment from '@/components/ScrollTopAndComment'
+import ScrollTopAndComment from '@/components/Post/ScrollTopAndComment'
 
 export default function PostLayout({ frontMatter, authorDetails, next, prev, children }) {
   const { date, title } = frontMatter

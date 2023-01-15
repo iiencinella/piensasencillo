@@ -1,6 +1,6 @@
 import Logo from '@/components/Image/logo'
 import { PageSEO } from '@/components/SEO'
-import ScrollTopAndComment from '@/components/ScrollTopAndComment'
+import ScrollTopAndComment from '@/components/Post/ScrollTopAndComment'
 import { SectionContainer } from '@/components/Section'
 import siteMetadata from '@/data/siteMetadata'
 import SectionLayout from '@/layouts/section.layout'

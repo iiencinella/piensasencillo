@@ -1,5 +1,5 @@
-import Image from './Image'
-import Link from './Link'
+import Image from '../Image'
+import Link from '../Link'
 
 const Card = ({ title, description, imgSrc, href, maxWidthCard = '544px' }) => (
   <div className="md p-4 md:w-1/2" style={{ maxWidth: maxWidthCard }}>
