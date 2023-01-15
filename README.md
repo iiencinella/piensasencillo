@@ -1,6 +1,6 @@
 # Piensa Sencillo
 
-![blog-banner](/public/static/images/logotipo.jpeg)
+![blog-banner](/public/static/gallery/socialBanner.webp)
 
 Esta página tiene como base la plantilla de timlrx. Dejo los enlaces para que puedan observarlo:
 
