@@ -29,12 +29,19 @@ Seguiré aprendiendo y mejorando mi forma de pensar y programar.
 ## Organización de la página
 
 index
+
 ╠═ blog
+
 ║ ╚═ post
+
 ╠═ services
+
 ║ ╚═ post
+
 ╠═ portfolio
+
 ║ ╚═ post
+
 ╚═ about
 
 ### Blog
@@ -57,117 +64,3 @@ Además de las features originales, le agregué lo siguiente:
 - Enlace a mis distintas redes sociales (correo, github, facebook, linkedin, twitter y whatsapp)
 - Datos legales que aparecen solamente en algunas partes de la página
 - Animación de iluminación del logo
-
-## Estructura del proyecto
-
-╠ ═ ╚ ║
-
-.components
-╠═ Card
-║ ╠═ Block
-║ ╚═ Inline
-╠═ Image
-║ ╚═ Logo
-╠═ Footer
-║ ╚═ Legal Info
-╠═ Header
-║ ╚═ Mobile Nav
-╠═ Section
-║ ╚═ [...]
-╠═ Client Reload
-╠═ Theme Switch
-╠═ SEO
-╠═ Section Container
-╠═ Scroll Top
-╠═ Link
-╠═ Layout Wrapper
-╠═ Tag
-╠═ MDX Component
-╠═ TOC Inline
-╚═ [...]
-
-.css
-╠═ prism.css
-╠═ tailwind.css
-╚═ [...].css
-
-.data
-╠═ author
-║ ╚═ [...].md
-╠═ blog
-║ ╚═ [...].md
-╠═ services
-║ ╚═ [...].md
-╠═ projects
-║ ╚═ [...].md
-╠═ HeaderNav.link.js
-╠═ Project.data.js
-╠═ Service.data.js
-╚═ siteMetadata.js
-
-.layout
-╠═ author.layout.js
-╠═ list.layout.js
-╠═ post.layout.js
-╠═ author.layout.js
-╚═ [...].layout.js
-
-.lib
-╠═ utils
-║ ╠═ file.utils.js
-║ ╠═ date.utils.js [formatter and comparative]
-║ ╠═ htmlEscaper.utils.js
-║ ╠═ kebabCase.utils.js
-║ ╚═ [...].lib.js
-╠═ mdx.lib.js
-╠═ remark
-║ ╠═ codeTitle.utils.js
-║ ╠═ extractFrontMatter.utils.js
-║ ╠═ imgToJSX.utils.js
-║ ╠═ tocHeading.utils.js
-║ ╠═ tags.utils.js
-║ ╚═ [...].lib.js
-╚═ [...].lib.js
-
-.pages
-╠═ api
-║ ╚═ [...].js
-╠═ blog
-║ ╠═ page
-║ ║ ╚═ [page].js
-║ ╚═ [...slug].js
-╠═ service
-║ ╠═ page
-║ ║ ╚═ [page].js
-║ ╚═ [...slug].js
-╠═ tag
-║ ╠═ page
-║ ║ ╚═ [page].js
-║ ╚═ [tag].js
-╠═ \_app.js
-╠═ \_document.js
-╠═ 404
-║ ╚═ page
-║ ╚═ [page].js
-╠═ about
-║ ╚═ page
-║ ╚═ [page].js
-╠═ project
-║ ╚═ page
-║ ╚═ [page].js
-╠═ index.js
-╚═ [...].js
-
-.public
-╠═ static
-║ ╠═ favicon
-║ ╠═ gallery
-║ ╠═ icon
-║ ╚═ [...]
-╚═ [...]
-
-.scripts
-╠═ compose.script.js
-╠═ generateSitemap.script.js
-╠═ nextRemoteWatch.script.js
-╚═ [...]
