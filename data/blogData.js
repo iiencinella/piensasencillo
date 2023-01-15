@@ -1,19 +1,21 @@
 const blogData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'Resolviendo un anagrama',
+    description: `Pensamos como resolver un anagrama`,
+    imgSrc: 'https://upload.wikimedia.org/wikipedia/commons/9/94/Alan_Smithee_name.jpg',
+    href: '/blog/anagrama',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'Problema de las 8 reinas',
+    description: `Un problema computacional muy interesante para analizar`,
+    imgSrc: 'https://upload.wikimedia.org/wikipedia/commons/a/ad/Ocho_reinas_reina_atacar_fila.JPG',
+    href: '/blog/ocho-reinas',
+  },
+  {
+    title: 'Directiva Region, qué es?',
+    description: `Hablemos un poco de las directivas que casi nadie usa`,
+    imgSrc: 'https://i0.wp.com/dcodingames.com/wp-content/uploads/2016/01/spaghetti.jpg',
+    href: '/blog/directiva-region-net',
   },
 ]
 
