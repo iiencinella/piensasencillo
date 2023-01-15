@@ -1,4 +1,6 @@
+import serviceData from '@/data/serviceData'
 import Link from 'next/link'
+import Card from '../Card'
 
 export default function SectionServices() {
   return (
@@ -9,25 +11,16 @@ export default function SectionServices() {
             Servicios
           </h1>
         </div>
-        <div className="mt-4 flex flex-col text-center">
-          <p>
-            Mantenimiento de PC, notebooks{' -> '}
-            <span className="text-blue-500">
-              <Link href="/services/mantenimiento">Más info</Link>
-            </span>
-          </p>
-          <p>
-            Asesoramiento informático{' -> '}
-            <span className="text-blue-500">
-              <Link href="/services/asesoramiento">Más info</Link>
-            </span>
-          </p>
-          <p>
-            Armado de PC{' -> '}
-            <span className="text-blue-500">
-              <Link href="/services/armado">Más info</Link>
-            </span>
-          </p>
+        <div className="-m-4 flex flex-wrap max-h-screen">
+          {serviceData.map((d) => (
+            <Card
+              key={d.title}
+              title={d.title}
+              description={d.description}
+              href={d.href}
+              maxWidthCard={'100%'}
+            />
+          ))}
         </div>
       </div>
     </>

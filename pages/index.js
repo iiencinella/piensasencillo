@@ -1,7 +1,9 @@
 import Logo from '@/components/Image/logo'
 import { PageSEO } from '@/components/SEO'
-import { SectionBlog, SectionPortfolio, SectionServices } from '@/components/Section'
+import ScrollTopAndComment from '@/components/ScrollTopAndComment'
+import { SectionContainer } from '@/components/Section'
 import siteMetadata from '@/data/siteMetadata'
+import SectionLayout from '@/layouts/section.layout'
 import Link from 'next/link'
 
 export default function Home() {
@@ -20,17 +22,12 @@ export default function Home() {
             <Link href="#services">Ver servicios</Link>
           </span>
         </div>
-        <div>
-          <div>
-            <SectionServices />
-          </div>
-          <div>
-            <SectionBlog />
-          </div>
-          <div>
-            <SectionPortfolio />
-          </div>
-        </div>
+        <SectionContainer>
+          <ScrollTopAndComment />
+          <SectionLayout title={'Servicios'} routePath={'services'} />
+          <SectionLayout title={'Blog'} routePath={'blog'} />
+          <SectionLayout title={'Portafolio'} routePath={'projects'} />
+        </SectionContainer>
       </div>
     </>
   )
