@@ -22,12 +22,14 @@ export default function Home() {
             <Link href="#services">Ver servicios</Link>
           </span>
         </div>
-        <SectionContainer>
-          <ScrollTopAndComment />
-          <SectionLayout title={'Servicios'} routePath={'services'} />
-          <SectionLayout title={'Blog'} routePath={'blog'} />
-          <SectionLayout title={'Portafolio'} routePath={'projects'} />
-        </SectionContainer>
+        <div className="mt-20">
+          <SectionContainer>
+            <ScrollTopAndComment />
+            <SectionLayout title={'Servicios'} routePath={'services'} />
+            <SectionLayout title={'Blog'} routePath={'blog'} />
+            <SectionLayout title={'Portafolio'} routePath={'projects'} />
+          </SectionContainer>
+        </div>
       </div>
     </>
   )
