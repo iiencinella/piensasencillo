@@ -1,15 +1,13 @@
-import Logo from '@/components/Image/logo'
 import Link from 'next/link'
 
 export default function SectionServices() {
   return (
     <>
-      <div id="services" className="flex h-full w-full flex-col justify-center">
-        <div className="relative grid justify-items-center">
-          <div className="absolute pt-1/10 lg:pt-16">
-            <div className="h-52 w-52 animate-ping rounded-full bg-yellow-200 opacity-75"></div>
-          </div>
-          <Logo widthImg={500} heightImg={500} />
+      <div id="services" className="divide-y divide-gray-200 dark:divide-gray-700">
+        <div className="space-y-2 pt-6 pb-8 md:space-y-5">
+          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+            Servicios
+          </h1>
         </div>
         <div className="mt-4 flex flex-col text-center">
           <p>
