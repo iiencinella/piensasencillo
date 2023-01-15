@@ -1,6 +1,6 @@
 ---
 name: Iván Ezequiel Iencinella
-avatar: /static/images/avatar.png
+avatar: /static/avatar/iiencinella.png
 occupation: Desarrollador .Net
 company: Accusys Technologies
 email: iiencinella@outlook.es
