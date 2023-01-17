@@ -1,6 +1,6 @@
 ---
 title: Directiva Region, qué es?
-date: '08-01-2023' #mm-DD-yyyy
+date: '01-08-2023' #mm-DD-yyyy
 tags: ['c#', 'vb.Net', 'info', 'buenas practicas']
 draft: false
 summary: Hablemos un poco de las directivas que casi nadie usa
