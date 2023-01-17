@@ -6,7 +6,7 @@ draft: false
 summary: Busquemos la mejor manera de encontrar dos valores para llegar al resultado esperado
 ---
 
-# 1. Two Sum
+# Two Sum
 
 Nivel: Fácil
 
