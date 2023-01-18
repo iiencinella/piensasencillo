@@ -1,11 +1,15 @@
+import siteMetadata from '@/data/siteMetadata'
+
 import Image from '../Image'
-import Logo from '../Image/logo'
 import Link from '../Link'
+
+const maxWidth = 300
+const maxHeight = 300
 
 const CardLargest = ({ title, description, imgSrc, href }) => {
   return (
     <div className="md p-4 w-full">
-      <div className="h-full overflow-hidden rounded-md border-2 border-gray-200 border-opacity-60 dark:border-gray-700">
+      <div className="h-full overflow-hidden rounded-md border-2 border-gray-900 border-opacity-60 dark:border-gray-200">
         <div className="grid grid-cols-3">
           <div className="p-6 col-span-2">
             <h2 className="mb-3 text-2xl font-bold leading-8 tracking-tight">
@@ -26,8 +30,8 @@ const CardLargest = ({ title, description, imgSrc, href }) => {
                   alt={title}
                   src={imgSrc}
                   className="object-cover object-center h-full"
-                  width={300}
-                  height={300}
+                  width={maxWidth}
+                  height={maxHeight}
                 />
               </Link>
             ) : (
@@ -35,11 +39,30 @@ const CardLargest = ({ title, description, imgSrc, href }) => {
                 alt={title}
                 src={imgSrc}
                 className="object-cover object-center md:h-36 lg:h-48"
-                width={300}
-                height={300}
+                width={maxWidth}
+                height={maxHeight}
               />
             ))}
-          {!imgSrc && <Logo widthImg={300} heightImg={300} />}
+          {!imgSrc &&
+            (href ? (
+              <Link href={href} aria-label={`Link to ${title}`}>
+                <Image
+                  src={siteMetadata.imageHome}
+                  alt="logo"
+                  className="object-cover object-center md:h-36 lg:h-48"
+                  width={maxWidth}
+                  height={maxHeight}
+                ></Image>
+              </Link>
+            ) : (
+              <Image
+                src={siteMetadata.imageHome}
+                alt="logo"
+                className="object-cover object-center md:h-36 lg:h-48"
+                width={maxWidth}
+                height={maxHeight}
+              ></Image>
+            ))}
         </div>
       </div>
     </div>
