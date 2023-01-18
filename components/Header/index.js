@@ -25,7 +25,7 @@ export default function Header() {
         <header
           className={`${
             background ? 'bg-gray-900' : 'bg-transparent'
-          } fixed top-0 left-0 right-0 flex items-center justify-between py-10`}
+          } fixed top-0 left-0 right-0 flex items-center justify-between py-10 antialiased transition-colors duration-500`}
         >
           <div>
             <div className="flex items-center justify-between">
