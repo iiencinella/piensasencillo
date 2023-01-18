@@ -24,10 +24,10 @@ export default function Header() {
       <div className={`relative z-10`}>
         <header
           className={`${
-            background ? 'bg-gray-900' : 'bg-transparent'
-          } fixed top-0 right-1/10 left-1/10 flex items-center space-x-4 justify-between py-10 antialiased transition-colors duration-500`}
+            background ? 'bg-yellow-200 dark:bg-gray-900' : 'bg-transparent'
+          } fixed top-0 right-0 left-0 flex items-center space-x-4 justify-between py-10 antialiased transition-colors duration-500`}
         >
-          <div className="flex items-center justify-between">
+          <div className="ml-3 flex items-center justify-between">
             <div className="mr-3 h-16 w-16">
               <Logo widthImg={64} heightImg={64} />
             </div>
@@ -37,7 +37,7 @@ export default function Header() {
               </div>
             </Link>
           </div>
-          <div className="flex items-center text-base leading-5">
+          <div className="mr-3 flex items-center text-base leading-5">
             <div className="hidden sm:block">
               {headerNavLinks.map((link) => (
                 <Link
