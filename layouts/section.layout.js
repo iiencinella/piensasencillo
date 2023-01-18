@@ -1,11 +1,21 @@
-import Card from '@/components/Card'
+import CardLargest from '@/components/Card/largestMode'
+
 import blogData from '@/data/blogData'
 import projectsData from '@/data/projectsData'
 import serviceData from '@/data/serviceData'
+
 import Link from 'next/link'
+
+const paths = {
+  services: serviceData,
+  blog: blogData,
+  projects: projectsData,
+}
 
 export default function SectionLayout({ routePath, title }) {
   const path = '/' + routePath
+  const file = paths[routePath]
+
   return (
     <>
       <div id={routePath} className="divide-y divide-gray-200 dark:divide-gray-700">
@@ -15,54 +25,19 @@ export default function SectionLayout({ routePath, title }) {
           </h1>
         </div>
         <Link href={path}>Ver más ...</Link>
-        {routePath === 'services' && (
-          <div className="container py-12">
-            <div className="-m-4 flex flex-wrap">
-              {serviceData.map((d) => (
-                <Card
-                  key={d.title}
-                  title={d.title}
-                  description={d.description}
-                  // imgSrc={d.imgSrc}
-                  href={d.href}
-                  maxWidthCard="100%"
-                />
-              ))}
-            </div>
+        <div className="container py-12">
+          <div className="-m-4 flex flex-wrap">
+            {file.map((d) => (
+              <CardLargest
+                key={d.title}
+                title={d.title}
+                description={d.description}
+                imgSrc={d.imgSrc}
+                href={d.href}
+              />
+            ))}
           </div>
-        )}
-        {routePath === 'blog' && (
-          <div className="container py-12">
-            <div className="-m-4 flex flex-wrap">
-              {blogData.map((d) => (
-                <Card
-                  key={d.title}
-                  title={d.title}
-                  description={d.description}
-                  // imgSrc={d.imgSrc}
-                  href={d.href}
-                  maxWidthCard="100%"
-                />
-              ))}
-            </div>
-          </div>
-        )}
-        {routePath === 'projects' && (
-          <div className="container py-12">
-            <div className="-m-4 flex flex-wrap">
-              {projectsData.map((d) => (
-                <Card
-                  key={d.title}
-                  title={d.title}
-                  description={d.description}
-                  imgSrc={d.imgSrc}
-                  href={d.href}
-                  maxWidthCard="100%"
-                />
-              ))}
-            </div>
-          </div>
-        )}
+        </div>
       </div>
     </>
   )
