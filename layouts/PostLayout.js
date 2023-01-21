@@ -23,9 +23,9 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
   const localPath = window.location.href
 
   const sharedRoutes = {
-    facebook: 'https://www.facebook.com/sharer/sharer.php?u=https%3A//' + localPath,
-    twitter: 'https://twitter.com/intent/tweet?text=https%3A//' + localPath,
-    linkedin: 'https://www.linkedin.com/shareArticle?mini=true&url=https%3A//' + localPath,
+    facebook: 'https://www.facebook.com/sharer/sharer.php?u=' + localPath,
+    twitter: 'https://twitter.com/intent/tweet?text=' + localPath,
+    linkedin: 'https://www.linkedin.com/shareArticle?mini=true&url=' + localPath,
   }
 
   return (
