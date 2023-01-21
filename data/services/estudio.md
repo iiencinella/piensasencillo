@@ -8,7 +8,7 @@ summary: Armado de PC
 
 No sabes como resolver un problema o ejercicio de la facultad? Te ayudo a resolverlo.
 
-No logras aprender un tema nuevo. Te ayudo a aprenderlo.
+No logras aprender un tema nuevo? Te ayudo a aprenderlo.
 
 Hablame y coordinamos.
 

@@ -6,6 +6,8 @@ draft: false
 summary: Asesoramiento Informático
 ---
 
-Muchas veces queremos conseguir un nuevo equipo o comprar un nuevo accesorio informático y no sabemos donde comprarlo o de qué marca. Yo te puedo orientar a que tu compra valga la pena.
+Si queres renovar tu PC, estas con ganas de comprar un equipo nuevo, necesitas una solución para resolver un problema en tu negocio, casa o consultorio?
+
+Hablame y te guío para que no estés gastanto de más.
 
 ## Precio: _[consultar]_

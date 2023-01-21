@@ -6,6 +6,8 @@ draft: false
 summary: Armado de PC
 ---
 
-Armamos la PC a tu medida y tus ideales.
+Queremos tener la PC para poder jugar, trabajar sin problemas o que sea todo terreno.
+
+Hablame y te ayudo a armar la PC ideal para vos.
 
 ## Precio: _[consultar]_

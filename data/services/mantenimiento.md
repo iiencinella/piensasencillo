@@ -6,6 +6,10 @@ draft: false
 summary: Mantenimiento de PC
 ---
 
-Este servicio consiste en la limpieza de suciedad ("mugre") del gabinete, cambio de pasta térmica en el microprocesador (para mejorar el enfriamiento interno del gabinete) y limpieza de conexiónes internas y memorias RAM y de video.
+Si tu PC está funcionando lento y/o ves que tu PC tiene mucha suciedad, hablame y yo limpio toda la PC de suciedad y configuro el sistema operativo para que no funcione tan lento.
+
+Si ves que tu PC no está funcionando puedo ayudarte a repararlo o cambiar lo que no lo hace funcionar.
+
+Hablame y coordinamos una visita para ver el problema.
 
 ## Precio: $ 6000
