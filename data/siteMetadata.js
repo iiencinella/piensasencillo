@@ -9,7 +9,7 @@ const siteMetadata = {
   siteRepo: 'https://github.com/iiencinella/blog-piensaSencillo',
   siteLogo: '/static/favicon/favicon.ico',
   imageHome: '/static/gallery/logoPS.png',
-  image404: '/static/gallery/bulb-broken.png',
+  image404: '/static/gallery/page/bulb-broken.png',
   image: '/static/avatar/iiencinella.png',
   socialBanner: '/static/gallery/socialBanner.webp',
   email: 'iiencinella@outlook.es',
