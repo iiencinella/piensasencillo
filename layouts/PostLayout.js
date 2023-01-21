@@ -7,7 +7,7 @@ import Tag from '@/components/Post/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import ScrollTopAndComment from '@/components/Post/ScrollTopAndComment'
 import SocialIcon from '@/components/Image/social-icons'
-import { useRouter } from 'next/router'
+import { useRouter, withRouter } from 'next/router'
 
 const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/master/data/blog/${fileName}`
 const discussUrl = (slug) =>
@@ -20,12 +20,12 @@ const postDateTemplate = { weekday: 'long', year: 'numeric', month: 'long', day:
 export default function PostLayout({ frontMatter, authorDetails, next, prev, children }) {
   const { slug, fileName, date, title, images, tags } = frontMatter
   const router = useRouter()
-  const localPath = window.location.href
+  const localPath = router.asPath
 
   const sharedRoutes = {
-    facebook: 'https://www.facebook.com/sharer/sharer.php?u=' + localPath,
-    twitter: 'https://twitter.com/intent/tweet?text=' + localPath,
-    linkedin: 'https://www.linkedin.com/shareArticle?mini=true&url=' + localPath,
+    facebook: `https://www.facebook.com/sharer/sharer.php?u=https://www.piensasencillo.com.ar${localPath}`,
+    twitter: `https://twitter.com/intent/tweet?text=https://www.piensasencillo.com.ar${localPath}`,
+    linkedin: `https://www.linkedin.com/shareArticle?mini=true&url=https://www.piensasencillo.com.ar${localPath}`,
   }
 
   return (
@@ -103,12 +103,14 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
             </dl>
             <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
               <div className="prose max-w-none pt-10 pb-8 dark:prose-dark">{children}</div>
-              <div className="divide-y divide-gray-200 pb-8 dark:divide-gray-700 xl:divide-y-0 grid grid-flow-col">
-                <h3>Compártelo en las redes</h3>
-                <SocialIcon kind="facebook" href={sharedRoutes.facebook} size="6" />
-                <SocialIcon kind="twitter" href={sharedRoutes.twitter} size="6" />
-                <SocialIcon kind="linkedin" href={sharedRoutes.linkedin} size="6" />
-              </div>
+              {!router.pathname.includes('/services') && (
+                <div className="grid grid-flow-col content-center py-3 px-1">
+                  <h3>Compártelo en las redes</h3>
+                  <SocialIcon kind="facebook" href={sharedRoutes.facebook} size="6" />
+                  <SocialIcon kind="twitter" href={sharedRoutes.twitter} size="6" />
+                  <SocialIcon kind="linkedin" href={sharedRoutes.linkedin} size="6" />
+                </div>
+              )}
             </div>
             <footer>
               <div className="divide-gray-200 text-sm font-medium leading-5 dark:divide-gray-700 xl:col-start-1 xl:row-start-2 xl:divide-y">
