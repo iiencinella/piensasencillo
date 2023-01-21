@@ -21,6 +21,12 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
   const { slug, fileName, date, title, images, tags } = frontMatter
   const router = useRouter()
 
+  const sharedRoutes = {
+    facebook: 'https://www.facebook.com/sharer/sharer.php?u=https%3A//' + router.pathname,
+    twitter: 'https://twitter.com/intent/tweet?text=https%3A//' + router.pathname,
+    linkedin: 'https://www.linkedin.com/shareArticle?mini=true&url=https%3A//' + router.pathname,
+  }
+
   return (
     <SectionContainer>
       <BlogSEO
@@ -94,6 +100,12 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                 </ul>
               </dd>
             </dl>
+            <div className="divide-y divide-gray-200 pb-8 dark:divide-gray-700 xl:divide-y-0 grid grid-flow-col">
+              <h3>Compártelo en las redes</h3>
+              <SocialIcon kind="facebook" href={sharedRoutes.facebook} size="6" />
+              <SocialIcon kind="twitter" href={sharedRoutes.twitter} size="6" />
+              <SocialIcon kind="linkedin" href={sharedRoutes.linkedin} size="6" />
+            </div>
             <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
               <div className="prose max-w-none pt-10 pb-8 dark:prose-dark">{children}</div>
             </div>
