@@ -9,6 +9,7 @@ summary: Ejercicio simple para sumar números de un arreglo
 # Simple Array Sum
 
 Nivel: Fácil
+
 Link: <https://www.hackerrank.com/challenges/simple-array-sum/problem>
 
 ## Problema
