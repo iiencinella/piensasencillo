@@ -10,7 +10,7 @@ summary: Ejercicio simple para sumar números de un arreglo
 
 Nivel: Fácil
 
-Link: <https://www.hackerrank.com/challenges/simple-array-sum/problem>
+Link: [https://www.hackerrank.com/challenges/simple-array-sum/problem](https://www.hackerrank.com/challenges/simple-array-sum/problem)
 
 ## Problema
 
