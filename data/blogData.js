@@ -12,10 +12,10 @@ const blogData = [
     href: '/blog/ocho-reinas',
   },
   {
-    title: 'Directiva Region, qué es?',
-    description: `Hablemos un poco de las directivas que casi nadie usa`,
-    imgSrc: '/static/gallery/blog/spaghetti.webp',
-    href: '/blog/directiva-region-net',
+    title: '¿Acarrear o no Acarrear?',
+    description: `Desarrollemos la solución a un error de diseño de compuertas lógicas`,
+    imgSrc: '/static/gallery/blog/UOJ_1026.webp',
+    href: '/blog/acarreaNoAcarrea',
   },
   {
     title: `Resolviendo problemática laboral -> 'Two Sum'`,
