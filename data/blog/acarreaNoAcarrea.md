@@ -10,7 +10,7 @@ summary: Desarrollemos la solución a un error de diseño de compuertas lógicas
 
 Nivel: Medio
 
-Link: <https://www.beecrowd.com.br/judge/es/problems/view/1026>
+Link: [https://www.beecrowd.com.br/judge/es/problems/view/1026](https://www.beecrowd.com.br/judge/es/problems/view/1026)
 
 ## Problema
 
