@@ -10,6 +10,8 @@ Si tu PC está funcionando lento y/o ves que tu PC tiene mucha suciedad, hablame
 
 Si ves que tu PC no está funcionando puedo ayudarte a repararlo o cambiar lo que no lo hace funcionar.
 
+Te aparece pantalla negra o azul, avisame y lo arreglamos.
+
 Hablame y coordinamos una visita para ver el problema.
 
-## Precio: $ 6000
+## Precio: _[consultar]_
