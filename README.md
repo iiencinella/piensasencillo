@@ -60,7 +60,10 @@ Publicaré aplicaciones de escritorio y páginas webs (cada uno tendrá una pequ
 
 Además de las features originales, le agregué lo siguiente:
 
-- Facil cambio de modo oscuro/claro (tocando en la imagen del foco o lámpara)
+- Facil cambio de modo oscuro/claro. Tocando en la imagen del foco o lámpara(donde se encuentre dentro de la página)
 - Enlace a mis distintas redes sociales (correo, github, facebook, linkedin, twitter y whatsapp)
 - Datos legales que aparecen solamente en algunas partes de la página
-- Animación de iluminación del logo
+- Animación de iluminación del logo en la página principal
+- Toda las secciones de la página estan en la página principal
+- Los mejores posteos de cada sección están visibles en las secciones de la página principal
+- Los posteos del blog se pueden compartir
