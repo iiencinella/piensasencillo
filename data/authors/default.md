@@ -9,7 +9,7 @@ linkedin: https://www.linkedin.com/in/ezequiel-iencinella/
 github: https://github.com/iiencinella
 ---
 
-# Hola :wave:
+# Hola
 
 Me llamo Ezequiel.
 
@@ -23,7 +23,7 @@ Actualmente estoy estudiando javascript y typescript para el desarrollo de herra
 ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-`Pronto iré agregando más` :relaxed:
+`Pronto iré agregando más`
 
 Me recibí de Técnico Superior en Programación en la Universidad Tecnológica Nacional (UTN) en Paraná, Entre Ríos en el año 2014 con un pequeño proyecto de investigación y desarrollo con la temática "Inteligencia artificial en videojuegos". Desarrollé un Ta-Te-Ti con C# usando el algoritmo de A\* muy precario _(en estos momentos lo estoy reescribiendo e implementando buenas prácticas)_. El documento de investigación, en teoría, se puede consultar en la biblioteca de la UTN de Paraná.
 
