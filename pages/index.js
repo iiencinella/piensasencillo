@@ -1,6 +1,5 @@
 import Logo from '@/components/Image/logo'
 import { PageSEO } from '@/components/SEO'
-import ScrollTopAndComment from '@/components/Post/ScrollTopAndComment'
 import { SectionContainer } from '@/components/Section'
 import siteMetadata from '@/data/siteMetadata'
 import SectionLayout from '@/layouts/section.layout'
@@ -30,7 +29,6 @@ export default function Home() {
         </div>
         <div className="mt-20">
           <SectionContainer>
-            <ScrollTopAndComment />
             <SectionLayout title={'Servicios'} routePath={'services'} />
             <SectionLayout title={'Blog'} routePath={'blog'} />
             <SectionLayout title={'Portafolio'} routePath={'projects'} />
