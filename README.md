@@ -26,33 +26,21 @@ Esta página será mi tarjeta de presentación al mundo.
 Seguiré aprendiendo y mejorando mi forma de pensar y programar.
 ```
 
-## Organización de la página
+Así se vé la página en las PC de escritorio
+![screenshot-desktop](/public/static/gallery/screenshot/screenshot-desktop.webp)
 
-index
-
-╠═ blog
-
-║ ╚═ post
-
-╠═ services
-
-║ ╚═ post
-
-╠═ portfolio
-
-║ ╚═ post
-
-╚═ about
+Así se ve la página desde un teléfono
+![screenshot-desktop](/public/static/gallery/screenshot/screenshot-mobile.webp)
 
 ### Blog
 
 Iré publicando ideas y formas de resolver ciertos problemas y algún contenido que considere importante para todo programador
 
-### Services
+### Servicios
 
 Detallaré todos los servicios que ofrezco. Estos servicios, por el momento, solo los haré en la ciudad de Paraná Entre Ríos República Argentina y su zona metropolitana (Oro Verde, San Benito y Colonia Avellaneda).
 
-### Portfolio
+### Proyectos
 
 Publicaré aplicaciones de escritorio y páginas webs (cada uno tendrá una pequeña documentación de como usarlo y cómo lo desarrollé)
 
