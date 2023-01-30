@@ -16,4 +16,4 @@ Es una página muy simple donde está explicado que es el grupo, cuales son sus 
 
 También podes entrar a las distintas redes sociales en al que está el grupo y podes comunicarte con ellos o participar de sus reuniones de trabajo.
 
-La página está alojada en el siguiente enlace: [https://manosparana.com.ar/](https://manosparana.com.ar/)
+La página está alojada en el siguiente enlace: [Manos a la Obra Paraná](https://manosparana.com.ar/)

@@ -1,6 +1,6 @@
 # Piensa Sencillo
 
-![blog-banner](/public/static/gallery/socialBanner.webp)
+![blog-banner](/public/static/gallery/banner.webp)
 
 Esta página tiene como base la plantilla de timlrx. Dejo los enlaces para que puedan observarlo:
 
@@ -55,3 +55,4 @@ Además de las features originales, le agregué lo siguiente:
 - Toda las secciones de la página estan en la página principal
 - Los mejores posteos de cada sección están visibles en las secciones de la página principal
 - Los posteos del blog se pueden compartir
+- Los proyectos tienen una pequeña documentación (en forma de posteo)

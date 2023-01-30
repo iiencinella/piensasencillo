@@ -68,4 +68,4 @@ Más adelante haré en intento de actualizarlo.
 
 Por lo pronto dejo el enlace donde hay un borrador del documento original y el archivo .exe portable para que pruebes el juego. Lo desarrollé al algoritmo para que calcule todas las posibilidades, hay una sola forma de ganarle al algoritmo.
 
-[https://www.dropbox.com/s/367h5ec4hngc2g3/TSP_UTN_proyecto_final.zip?dl=0](https://www.dropbox.com/s/367h5ec4hngc2g3/TSP_UTN_proyecto_final.zip?dl=0)
+[Enlace a Dropbox](https://www.dropbox.com/s/367h5ec4hngc2g3/TSP_UTN_proyecto_final.zip?dl=0)
