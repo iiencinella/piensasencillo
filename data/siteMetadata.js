@@ -11,7 +11,7 @@ const siteMetadata = {
   imageHome: '/static/gallery/logoPS.png',
   image404: '/static/gallery/page/bulb-broken.png',
   image: '/static/avatar/iiencinella.png',
-  socialBanner: '/static/gallery/socialBanner.webp',
+  socialBanner: '/static/gallery/banner.webp',
   email: 'iiencinella@outlook.es',
   github: 'https://github.com/iiencinella',
   twitter: 'https://twitter.com/iencinella1990',
