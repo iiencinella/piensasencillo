@@ -4,14 +4,22 @@ import MobileNav from './MobileNav'
 
 import siteMetadata from '@/data/siteMetadata'
 import headerNavLinks from '@/data/headerNavLinks'
+import { useRouter } from 'next/router'
 
 export default function Header() {
+  const router = useRouter()
+  let pathImage = siteMetadata.logoHome
+
+  if (router.pathname.includes('/services')) pathImage = siteMetadata.logoService
+  if (router.pathname.includes('/projects')) pathImage = siteMetadata.logoProject
+  if (router.pathname.includes('/blog')) pathImage = siteMetadata.logoLibrary
+
   return (
     <>
       <header className="flex items-center justify-between py-10">
         <div className="flex items-center justify-between">
-          <div className="mr-3 h-16 w-16">
-            <Logo widthImg={64} heightImg={64} />
+          <div className="mr-3 h-20 w-20">
+            <Logo widthImg={80} heightImg={80} srcImg={pathImage} />
           </div>
           <Link href="/" aria-label={siteMetadata.headerTitle}>
             <div className="h-6 text-center text-3xl font-semibold sm:block">

@@ -2,11 +2,11 @@ import siteMetadata from '@/data/siteMetadata'
 import Image from 'next/image'
 import { useTheme } from 'next-themes'
 
-export default function Logo({ widthImg, heightImg }) {
+export default function Logo({ widthImg, heightImg, srcImg }) {
   const { theme, setTheme, resolvedTheme } = useTheme()
   return (
     <Image
-      src={siteMetadata.imageHome}
+      src={!srcImg ? siteMetadata.imageHome : srcImg}
       alt="logo"
       className="absolute mt-2"
       width={widthImg}

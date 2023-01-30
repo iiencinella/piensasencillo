@@ -56,3 +56,4 @@ Además de las features originales, le agregué lo siguiente:
 - Los mejores posteos de cada sección están visibles en las secciones de la página principal
 - Los posteos del blog se pueden compartir
 - Los proyectos tienen una pequeña documentación (en forma de posteo)
+- El logo irá cambiando de acuerdo a la sección de la página en la que se encuentre el usuario
