@@ -15,7 +15,7 @@ Me llamo Ezequiel.
 
 Trabajo como desarrollador .Net bajo la arquitectura financiera COBIS desde el 2019. En mis ratos libres estudio y desarrollo soluciones con C# (con el tiempo iré aplicando soluciones con otros lenguajes).
 
-Actualmente estoy estudiando javascript y typescript para el desarrollo de herramientas web. Entre otras cosas (dependiendo de lo que vaya investigando). Actualmente me llama mucho la atención Next Js con typescript, Tailwind CSS, Mongo DB y Vercel o Netlify para el despliegue de soluciones.
+Actualmente estoy estudiando javascript para el desarrollo de herramientas web.
 
 💻 Estos serían mis conocimientos técnicos
 
