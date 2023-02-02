@@ -9,6 +9,7 @@ summary: Ejercicio lógico
 # El Grinch quiere fastidiar la Navidad
 
 Nivel: Medio
+
 Link: [https://2021.adventjs.dev/challenges/03](https://2021.adventjs.dev/challenges/03)
 
 ## Problema
