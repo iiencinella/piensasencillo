@@ -12,7 +12,8 @@ export default function Header() {
 
   if (router.pathname.includes('/services')) pathImage = siteMetadata.logoService
   if (router.pathname.includes('/projects')) pathImage = siteMetadata.logoProject
-  if (router.pathname.includes('/blog')) pathImage = siteMetadata.logoLibrary
+  if (router.pathname.includes('/blog')) pathImage = siteMetadata.logoblog
+  if (router.pathname.includes('/laboratory')) pathImage = siteMetadata.logoLaboratory
 
   return (
     <>
