@@ -32,7 +32,7 @@ Es bueno que él haya encontrado su error, pero era muy tarde. Considerando su e
 | 4 6                 | 2                  |
 | 6 9                 | 15                 |
 
-## Discusión
+## Discusión 🤨
 
 Tenemos la siguiente situación, debemos de hacer un programa que replique el comportamiento del circuito lógico que diseño el alumno.
 El diagrama lo que hace es una suma bit a bit de números enteros pero sin tener en cuenta el acarreo (es el mecanismo usado para cuando la suma da más de un dígito, el dígito sobrante pasa a la siguiente posición de la suma).

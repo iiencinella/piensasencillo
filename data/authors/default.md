@@ -9,8 +9,6 @@ linkedin: https://www.linkedin.com/in/ezequiel-iencinella/
 github: https://github.com/iiencinella
 ---
 
-# Hola
-
 Me llamo Ezequiel.
 
 Trabajo como desarrollador .Net bajo la arquitectura financiera COBIS desde el 2019. En mis ratos libres estudio y desarrollo soluciones con C# (con el tiempo iré aplicando soluciones con otros lenguajes).
@@ -23,7 +21,7 @@ Actualmente estoy estudiando javascript para el desarrollo de herramientas web.
 ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-`Pronto iré agregando más`
+`Pronto iré agregando más 👨‍💻`
 
 Me recibí de Técnico Superior en Programación en la Universidad Tecnológica Nacional (UTN) en Paraná, Entre Ríos en el año 2014 con un pequeño proyecto de investigación y desarrollo con la temática "Inteligencia artificial en videojuegos". Desarrollé un Ta-Te-Ti con C# usando el algoritmo de A\* muy precario _(en estos momentos lo estoy reescribiendo e implementando buenas prácticas)_. El documento de investigación, en teoría, se puede consultar en la biblioteca de la UTN de Paraná.
 
@@ -34,3 +32,5 @@ Luego me propuse estudiar la Ingeniería en Sistemas (en la UTN de Santa Fe) com
 En 2020 lo tuve que dejar para poder enfocarme en la familia.
 
 Siempre disfruto de pensar en cómo resolver problemas lógicos de programación.
+
+Aquí abajo podrás contactarte conmigo 👇
