@@ -1,7 +1,7 @@
 ---
 title: Simple Array Sum
 date: '01-22-2023' #mm-DD-yyyy
-tags: ['laboratorio', 'problemática', 'c#']
+tags: ['laboratorio', 'problemática', 'c-sharp']
 draft: false
 summary: Ejercicio simple para sumar números de un arreglo
 ---

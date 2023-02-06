@@ -1,7 +1,7 @@
 ---
 title: El Grinch quiere fastidiar la Navidad
 date: '02-01-2023' #mm-DD-yyyy
-tags: ['c#', 'adventJS']
+tags: ['c-sharp', 'adventJS']
 draft: false
 summary: Ejercicio lógico
 ---
