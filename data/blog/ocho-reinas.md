@@ -1,7 +1,7 @@
 ---
 title: Problema de las 8 reinas
 date: '01-01-2023' #mm-DD-yyyy
-tags: ['laboratorio', 'acertijo', 'c-sharp']
+tags: ['acertijo', 'c-sharp']
 draft: false
 summary: Un problema computacional muy interesante para analizar
 ---

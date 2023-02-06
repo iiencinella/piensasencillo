@@ -1,7 +1,7 @@
 ---
 title: ¿Acarrear o no Acarrear?
 date: '01-21-2023' #mm-DD-yyyy
-tags: ['laboratorio', 'problemática', 'c-sharp']
+tags: ['problemática', 'c-sharp']
 draft: false
 summary: Desarrollemos la solución a un error de diseño de compuertas lógicas
 ---

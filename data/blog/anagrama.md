@@ -1,7 +1,7 @@
 ---
 title: Resolviendo un anagrama
 date: '01-01-2023' #mm-DD-yyyy
-tags: ['laboratorio', 'acertijo', 'c-sharp']
+tags: ['acertijo', 'c-sharp']
 draft: false
 summary: Pensamos como resolver un anagrama
 ---

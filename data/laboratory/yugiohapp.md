@@ -1,7 +1,7 @@
 ---
 title: Yu-Gi-Oh! APP
 date: '02-05-2023' #mm-DD-yyyy
-tags: ['laboratorio', 'web', 'HTML', 'CSS', 'JS', 'JavaScript']
+tags: ['web', 'HTML', 'CSS', 'JS', 'JavaScript']
 draft: false
 summary: Página web hecho con HTML, CSS y JavaScript conectandome a la API de YuGiOh Pro Deck para consultar por cartas coleccionables.
 ---
