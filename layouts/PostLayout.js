@@ -19,12 +19,14 @@ const postDateTemplate = { weekday: 'long', year: 'numeric', month: 'long', day:
 export default function PostLayout({ frontMatter, authorDetails, next, prev, children }) {
   const { slug, fileName, date, title, images, tags } = frontMatter
   const router = useRouter()
-  const localPath = router.asPath
+  const localPath = router.asPath.substring(1)
+
+  console.log(localPath)
 
   const sharedRoutes = {
-    facebook: `https://www.facebook.com/sharer/sharer.php?u=https://www.piensasencillo.com.ar${localPath}`,
-    twitter: `https://twitter.com/intent/tweet?text=https://www.piensasencillo.com.ar${localPath}`,
-    linkedin: `https://www.linkedin.com/shareArticle?mini=true&url=https://www.piensasencillo.com.ar${localPath}`,
+    facebook: `https://www.facebook.com/sharer/sharer.php?u=${siteMetadata.siteUrl}${localPath}`,
+    twitter: `https://twitter.com/intent/tweet?text=${siteMetadata.siteUrl}${localPath}`,
+    linkedin: `https://www.linkedin.com/shareArticle?mini=true&url=${siteMetadata.siteUrl}${localPath}`,
   }
 
   return (
@@ -35,13 +37,13 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
         {...frontMatter}
       />
       <article>
-        <div className="xl:divide-y xl:divide-gray-200 xl:dark:divide-gray-700">
+        <div className="xl:divide-y xl:dark:divide-gray-200 xl:divide-gray-700">
           <header className="pt-6 xl:pb-6">
             <div className="space-y-1 text-center">
               <dl className="space-y-10">
                 <div>
                   <dt className="sr-only">Publicado en</dt>
-                  <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
+                  <dd className="text-base font-medium leading-6 text-gray-700 dark:text-gray-400">
                     <time dateTime={date}>
                       {new Date(date).toLocaleDateString(siteMetadata.locale, postDateTemplate)}
                     </time>
@@ -54,7 +56,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
             </div>
           </header>
           <div
-            className="divide-y divide-gray-200 pb-8 dark:divide-gray-700 xl:grid xl:grid-cols-4 xl:gap-x-6 xl:divide-y-0"
+            className="divide-y divide-gray-700 pb-8 dark:divide-gray-200 xl:grid xl:grid-cols-4 xl:gap-x-6 xl:divide-y-0"
             style={{ gridTemplateRows: 'auto 1fr' }}
           >
             <dl className="pt-6 pb-10 xl:border-b xl:border-gray-200 xl:pt-11 xl:dark:border-gray-700">
@@ -99,7 +101,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                 </ul>
               </dd>
             </dl>
-            <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
+            <div className="divide-y divide-gray-700 dark:divide-gray-200 xl:col-span-3 xl:row-span-2 xl:pb-0">
               <div className="prose max-w-none pt-10 pb-8 dark:prose-dark">{children}</div>
               {!router.pathname.includes('/services') && (
                 <div className="grid grid-flow-col content-center py-3 px-1">
@@ -111,7 +113,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
               )}
             </div>
             <footer>
-              <div className="divide-gray-200 text-sm font-medium leading-5 dark:divide-gray-700 xl:col-start-1 xl:row-start-2 xl:divide-y">
+              <div className="divide-gray-700 text-sm font-medium leading-5 dark:divide-gray-200 xl:col-start-1 xl:row-start-2 xl:divide-y">
                 {/* {tags && (
                   <div className="py-4 xl:py-8">
                     <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
