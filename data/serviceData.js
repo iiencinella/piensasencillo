@@ -18,10 +18,16 @@ const serviceData = [
     href: '/services/armado',
   },
   {
+    title: 'Clases y ayuda en ofimática',
+    description: `Te ayudo en Word, Excel, PowerPoint, Writer, Calc o Draw.`,
+    imgSrc: '/static/gallery/services/ofimatica.webp',
+    href: '/services/estudioprogramacion',
+  },
+  {
     title: 'Clases y ayuda de programación',
     description: `Te ayudo a resolver problemas o a aprender un tema de programación`,
     imgSrc: '/static/gallery/services/estudio.webp',
-    href: '/services/estudio',
+    href: '/services/estudioprogramacion',
   },
 ]
 
