@@ -25,7 +25,7 @@ const Card = ({ title, description, imgSrc, href, maxWidthCard = '544px' }) => (
               height={306}
             />
           ))}
-        <div className="p-6">
+        <div className="p-6 md:h-36 lg:h-48">
           <h2 className="mb-3 text-2xl font-bold leading-8 tracking-tight">
             {href ? (
               <Link href={href} aria-label={`Link to ${title}`}>
