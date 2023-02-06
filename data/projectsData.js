@@ -7,7 +7,7 @@ const projectsData = [
   },
   {
     title: 'Inteligencia Artificial en Videojuegos',
-    description: `Este proyecto de investigación y desarrollo lo desarrollé para recibirme de Técnido en Programación y estudio algunos algoritmos de inteligencia artificial, la historia de los videojuegos y como se le programaban las inteligencias a los juegos`,
+    description: `Investigación personal`,
     imgSrc: '/static/gallery/projects/tres-en-raya.webp',
     href: '/projects/utnfrpTrabajoFinal',
   },
