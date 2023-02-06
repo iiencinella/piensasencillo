@@ -34,7 +34,7 @@ export default function Header() {
               <Link
                 key={link.title}
                 href={link.href}
-                className="p-1 font-medium text-gray-900 dark:text-gray-100 sm:p-4 hover:underline hover:underline-offset-1"
+                className="p-1 font-medium text-gray-900 dark:text-gray-100 sm:p-4 hover-underline-animation"
               >
                 {link.title}
               </Link>
