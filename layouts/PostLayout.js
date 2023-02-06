@@ -40,16 +40,18 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
         <div className="xl:divide-y xl:dark:divide-gray-200 xl:divide-gray-700">
           <header className="pt-6 xl:pb-6">
             <div className="space-y-1 text-center">
-              <dl className="space-y-10">
-                <div>
-                  <dt className="sr-only">Publicado en</dt>
-                  <dd className="text-base font-medium leading-6 text-gray-700 dark:text-gray-400">
-                    <time dateTime={date}>
-                      {new Date(date).toLocaleDateString(siteMetadata.locale, postDateTemplate)}
-                    </time>
-                  </dd>
-                </div>
-              </dl>
+              {!router.pathname.includes('/services') && (
+                <dl className="space-y-10">
+                  <div>
+                    <dt className="sr-only">Publicado en</dt>
+                    <dd className="text-base font-medium leading-6 text-gray-700 dark:text-gray-400">
+                      <time dateTime={date}>
+                        {new Date(date).toLocaleDateString(siteMetadata.locale, postDateTemplate)}
+                      </time>
+                    </dd>
+                  </div>
+                </dl>
+              )}
               <div>
                 <PageTitle>{title}</PageTitle>
               </div>
