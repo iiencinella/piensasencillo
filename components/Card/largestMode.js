@@ -9,7 +9,7 @@ const maxHeight = 300
 const CardLargest = ({ title, description, imgSrc, href }) => {
   return (
     <div className="md p-4 w-full">
-      <div className="h-full overflow-hidden rounded-xl bg-gradient-to-r p-[5px] dark:from-[#bdc3c7] dark:to-[#2c3e50] from-[#0F2027] to-[#2C5364] animate-gradient-xy">
+      <div className="h-full overflow-hidden rounded-xl bg-gradient-to-r p-[3px] dark:from-[#bdc3c7] dark:to-[#2c3e50] from-[#0F2027] to-[#2C5364] animate-gradient-xy">
         <div className="grid grid-cols-3 bg-yellow-200 dark:bg-gray-900 rounded-lg p-4">
           <div className="p-6 col-span-2">
             <h2 className="mb-3 text-2xl font-bold leading-8 tracking-tight">
