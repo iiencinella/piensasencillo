@@ -20,7 +20,7 @@ export default function Header() {
       <header className="flex items-center justify-between py-10">
         <div className="flex items-center justify-between">
           <div className="mr-3 h-20 w-20">
-            <Logo widthImg={80} heightImg={80} srcImg={pathImage} />
+            <Logo widthImg={74} heightImg={104} srcImg={pathImage} />
           </div>
           <Link href="/" aria-label={siteMetadata.headerTitle}>
             <div className="h-6 text-center text-3xl font-semibold sm:block">
