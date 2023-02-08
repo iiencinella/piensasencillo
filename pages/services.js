@@ -10,12 +10,12 @@ export default function Projects() {
         title={`Servicios - ${siteMetadata.headerTitle}`}
         description={siteMetadata.description}
       />
-      <div className="divide-y divide-gray-200 dark:divide-gray-700">
+      <div className="divide-y dark:divide-gray-200 divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Servicios
           </h1>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+          <p className="text-lg leading-7 text-gray-600 dark:text-gray-400">
             Tenés algún problema, aqui están todas las opciones que te ofrezco
           </p>
         </div>
