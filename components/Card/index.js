@@ -3,7 +3,7 @@ import Link from '../Link'
 
 const Card = ({ title, description, imgSrc, href, maxWidthCard = '544px' }) => (
   <div className="md p-4 md:w-1/2" style={{ maxWidth: maxWidthCard }}>
-    <div className="h-full overflow-hidden rounded-xl bg-gradient-to-r p-[3px] dark:from-[#bdc3c7] dark:to-[#2c3e50] from-[#0F2027] to-[#2C5364] animate-gradient-xy">
+    <div className="h-full overflow-hidden rounded-xl bg-gradient-to-r p-[3px] from-[#fef08a] to-[#171717] animate-gradient-xy">
       <div className="bg-yellow-200 dark:bg-gray-900 rounded-lg">
         {imgSrc &&
           (href ? (
