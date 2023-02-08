@@ -15,6 +15,8 @@ Está hecho con:
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
+![imagen](/static/gallery/laboratory/yugiohapp.webp)
+
 Pueden consultar la página desplegada [aquí](https://yugioh-api.vercel.app/)
 
 Podés consultar el [repositorio](https://github.com/iiencinella/yugiohAPI)
