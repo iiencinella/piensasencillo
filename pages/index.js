@@ -12,7 +12,7 @@ export default function Home() {
       <div className="flex h-full w-full flex-col justify-center">
         <div className="relative grid justify-items-center">
           <div className="absolute pt-1/10 lg:pt-16">
-            <div className="h-60 w-60 animate-ping rounded-full bg-yellow-200 blur-sm"></div>
+            <div className="h-52 w-52 max-[640px]:h-44 max-[640px]:w-44 animate-ping rounded-full bg-yellow-200 blur-sm"></div>
           </div>
           <Logo widthImg={500} heightImg={500} />
         </div>
