@@ -21,13 +21,19 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
   const router = useRouter()
   const localPath = router.asPath.substring(1)
 
-  console.log(localPath)
-
   const sharedRoutes = {
     facebook: `https://www.facebook.com/sharer/sharer.php?u=${siteMetadata.siteUrl}${localPath}`,
     twitter: `https://twitter.com/intent/tweet?text=${siteMetadata.siteUrl}${localPath}`,
     linkedin: `https://www.linkedin.com/shareArticle?mini=true&url=${siteMetadata.siteUrl}${localPath}`,
   }
+
+  const previewPath = router.pathname.substring(0, router.pathname.lastIndexOf('/'))
+  let previewSection = ''
+  if (router.pathname.includes('/blog')) previewSection = 'a Blog'
+  else if (router.pathname.includes('/services')) previewSection = 'a Servicios'
+  else if (router.pathname.includes('/laboratory')) previewSection = 'a Laboratorio'
+  else if (router.pathname.includes('/project')) previewSection = 'a Proyectos'
+  else previewSection = 'al Inicio'
 
   return (
     <SectionContainer>
@@ -116,7 +122,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
             </div>
             <footer>
               <div className="divide-gray-700 text-sm font-medium leading-5 dark:divide-gray-200 xl:col-start-1 xl:row-start-2 xl:divide-y">
-                {/* {tags && (
+                {tags && (
                   <div className="py-4 xl:py-8">
                     <h2 className="text-xs uppercase tracking-wide text-gray-600 dark:text-gray-400">
                       Categorías
@@ -127,8 +133,8 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                       ))}
                     </div>
                   </div>
-                )} */}
-                {(next || prev) && (
+                )}
+                {/* {(next || prev) && (
                   <div className="flex justify-between py-4 xl:block xl:space-y-8 xl:py-8">
                     {prev && (
                       <div>
@@ -151,14 +157,14 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                       </div>
                     )}
                   </div>
-                )}
+                )} */}
               </div>
               <div className="pt-4 xl:pt-8">
                 <Link
-                  href="/"
+                  href={previewPath}
                   className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
                 >
-                  &larr; Ir al Inicio
+                  &larr; Volver {previewSection}
                 </Link>
               </div>
             </footer>
