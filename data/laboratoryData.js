@@ -11,6 +11,12 @@ const laboratoryData = [
     imgSrc: '/static/gallery/laboratory/calculator.webp',
     href: '/laboratory/calculadora',
   },
+  {
+    title: 'Generador código QR',
+    description: `Aprendemos a generar códigos QR`,
+    imgSrc: '/static/gallery/laboratory/codeQR.webp',
+    href: '/laboratory/generadorQR',
+  },
 ]
 
 export default laboratoryData
