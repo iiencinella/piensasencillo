@@ -25,6 +25,6 @@ En la actualidad encontramos códigos QR en los que se pueden incorporar imágen
 
 Este gráfico demuestra cómo leer la información de un código QR.
 
-![imagenQR](https://es.wikipedia.org/wiki/C%C3%B3digo_QR#/media/Archivo:QR_Format_Information.svg)
+![imagenQR](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/QR_Format_Information.svg/1920px-QR_Format_Information.svg.png)
 
-Si quieres ver cómo se generan códigos QR te paso este [post](laboratory/generadorQR)
+Si quieres ver cómo se generan códigos QR te paso este [post](/laboratory/generadorQR)
