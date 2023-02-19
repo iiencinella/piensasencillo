@@ -70,7 +70,7 @@ Este nuevo resultado lo vamos a colocar en la nueva lista y nos posisionamos en 
 
 El procedimiento es cíclico hasta que ya no tengamos más dígitos por sumar de las 2 listas que nos mandaron.
 
-> El código lo puedes consultar en el siguiente [repositorio](https://github.com/iiencinella/acarreaNoAcarrea)
+> El código lo puedes consultar en el siguiente [repositorio](https://github.com/iiencinella/addTwoNumber)
 
 ## Conclusión
 
