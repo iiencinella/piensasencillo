@@ -12,7 +12,7 @@ Nivel: High (en la página lo propone como "Medium")
 
 Link: [https://leetcode.com/problems/add-two-numbers/](https://leetcode.com/problems/add-two-numbers/)
 
-![imagen](https://5d75933d-a-3a50c135-s-sites.googlegroups.com/a/espe.edu.ec/programacion-ii/home/listas-enlazadas/lista.png?attachauth=ANoY7cp77GBQoASNUctNEyCAydjdz5zTOQbtkXyYzVnNS6OFrDby7y3Zg4UO0CvoeqSDzX-tID-ZUizi2A4YQfnPbmEp09OqXiRgBp4v65hIJTSexAVXSWQbwOzewhhPENiWTJ3VRD9mjaF3CFsbzdqTskDEx8DqkmYd9Kc9H5DfWCvMOaQ3MUgAuJCjVjV5dYThqNmhKlwIveounWW8X6ljHwEokI_OGPpx--IwZ3UymCgCibHISSU%3D&attredirects=0)
+![imagen](https://codeforwin.org/wp-content/uploads/2015/09/singly-linked-list-deletion-from-front.png)
 
 ## Problema
 
